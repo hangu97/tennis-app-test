@@ -562,7 +562,7 @@ body::before {
    SECTION HEADERS
    ===================================================== */
 .head {
-  max-width: 18ch;
+  max-width: min(420px, 90%);
   margin-bottom: 56px;
 }
 .head .eyebrow {
