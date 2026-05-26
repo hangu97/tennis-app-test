@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Hanken_Grotesk, Space_Mono } from "next/font/google";
 import "./globals.css";
+import { StoreProvider } from "@/lib/store";
 
 // Display: a wonky, characterful serif — editorial heritage with warmth.
 const fraunces = Fraunces({
@@ -42,7 +43,7 @@ export default function RootLayout({
       <body
         className={`${fraunces.variable} ${hanken.variable} ${spaceMono.variable}`}
       >
-        {children}
+        <StoreProvider>{children}</StoreProvider>
       </body>
     </html>
   );

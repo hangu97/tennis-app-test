@@ -24,7 +24,8 @@ export default function Nav() {
           <a href="#how">How it works</a>
           <a href="#why">Why Rally</a>
           <a href="#faq">FAQ</a>
-          <a href="#join" className="btn btn-primary">
+          <a href="/login">Log in</a>
+          <a href="/signup" className="btn btn-primary">
             Get matched
           </a>
         </div>
