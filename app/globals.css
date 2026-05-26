@@ -715,7 +715,7 @@ body::before {
    ===================================================== */
 .quote {
   text-align: center;
-  max-width: 22ch;
+  max-width: min(960px, 92vw);
   margin: 0 auto;
 }
 .quote .mark {
