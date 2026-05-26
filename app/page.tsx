@@ -265,7 +265,7 @@ export default function Home() {
           <Reveal>
             <div className="head center">
               <span className="eyebrow">Questions</span>
-              <h2 className="display">Everything before your first serve.</h2>
+              <h2 className="display">Everything before your first serve!</h2>
             </div>
           </Reveal>
 
